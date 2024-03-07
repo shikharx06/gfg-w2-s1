@@ -1,0 +1,1 @@
+{"version":3,"sources":["src/index.js"],"names":["printaspdf","window","print"],"mappings":"AAAA,SAASA,UAAUA,CAAA,EAAG;EACpBC,MAAM,CAACC,KAAK;AACd","file":"src.a2b27638.js","sourceRoot":"..","sourcesContent":["function printaspdf() {\n  window.print;\n}\n"]}
