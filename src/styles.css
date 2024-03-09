@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+body {
+    padding: 1rem;
+    background: #DEDEDE;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    gap: 1rem;
+    /* flex-wrap: wrap; */
+}
+
+
+.main-content{
+       /* background: white; */
+    }
+    
+    
+.hero {
+border-radius:0.5rem ;
+ display: flex;
+ background: white;
+ padding: 1rem;     
+
+}
+
+.hero__content h1 {
+    margin-bottom: 0;
+}
+
+.hero__content p {
+    margin: 0;
+    font-size: small;
+    /* opacity: 0.8; */
+    color: rgba(10,10,10,0.7);
+}
+
+.hero-image {
+    border-radius: 50%;
+    width:8rem;
+    height: 8rem;
+    object-fit: cover;
+}
+
+
+.contact-links a:nth-child(-n+1):before {
+    content: "";
+}
+
+.contact-links a:before {
+    content: "·";
+}
+
+.contact-links a {
+    text-decoration: none;
+}
+
+.experience-section {
+    border-radius:0.5rem ;
+    margin: 1rem 0;
+ /* display: flex; */
+ background: white;
+ padding: 1rem;     
+}
+
+.experience-box {
+    display: flex;
+    gap: 1rem;
+}
+
+.experience-box p {
+    margin:0;
+    color: rgba(0,0,0, 0.8);
+    font-size: 1rem;
+
+}
+
+.designation {
+    margin: 0;
+    font-size: 1.25rem;
+}
+.company-name {
+    margin: 0;
+    font-weight: 500;
+    /* font-size: 1  */
+}
+
+.experience-box img {
+    height: 2.5rem;
+    aspect-ratio: 1/1;
+}
+
+.experience-summary {
+    padding: 1rem;
+}
+
+.main-content {
+   max-width: 1024px; 
+}
+
+.secondary-content {
+    background: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    flex-grow: 1;
+
+}
+
+@media screen and (max-width:1024px) {
+   body{ 
+    flex-wrap: wrap
+   }
+}
