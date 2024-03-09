@@ -52,7 +52,7 @@ body {
 
 .experience-section {
   background-color: white;
-  margin: 1rem 0;
+  margin: 1rem 0 0 0;
   padding: 1rem;
   border-radius: 0.5rem;
 }
@@ -102,5 +102,6 @@ body {
 @media screen and (max-width: 1024px) {
   body {
     flex-wrap: wrap;
+    gap: 1rem 0;
   }
 }
