@@ -97,6 +97,29 @@ body {
   background-color: white;
   border-radius: 0.5rem;
   flex-grow: 1;
+  transition: all 1s ease-in;
+}
+
+.main-content,
+.secondary-content {
+  animation: growInFade 1s ease-in alternate;
+}
+
+@keyframes growInFade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+button {
+  width: 8rem;
+  height: 2rem;
+  position: fixed;
+  bottom: 2rem;
+  right: 5rem;
 }
 
 @media screen and (max-width: 1024px) {
