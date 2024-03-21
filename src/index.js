@@ -1,3 +1,3 @@
-printAsPdf = function () {
-  window.print();
+printAsPdf = () => {
+  return window.print();
 };
