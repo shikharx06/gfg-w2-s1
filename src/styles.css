@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* 
 
+
+body {
+}
 
 
 body {
@@ -8,14 +12,10 @@ body {
     font-family: "Poppins", sans-serif;
     display: flex;
     gap: 1rem;
-    /* flex-wrap: wrap; */
 }
 
 
-.main-content{
-       /* background: white; */
-    }
-    
+   
     
 .hero {
 border-radius:0.5rem ;
@@ -32,7 +32,6 @@ border-radius:0.5rem ;
 .hero__content p {
     margin: 0;
     font-size: small;
-    /* opacity: 0.8; */
     color: rgba(10,10,10,0.7);
 }
 
@@ -59,7 +58,6 @@ border-radius:0.5rem ;
 .experience-section {
     border-radius:0.5rem ;
     margin: 1rem 0;
- /* display: flex; */
  background: white;
  padding: 1rem;     
 }
@@ -83,7 +81,6 @@ border-radius:0.5rem ;
 .company-name {
     margin: 0;
     font-weight: 500;
-    /* font-size: 1  */
 }
 
 .experience-box img {
@@ -111,4 +108,122 @@ border-radius:0.5rem ;
    body{ 
     flex-wrap: wrap
    }
+} */
+
+
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    background: gray;
+    font-family: "Poppins", sans-serif;
+}
+
+.hero{
+  background: white;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    display:flex;
+
+
+}
+
+.hero-image {
+    /* width: 12rem;
+    height: 12rem;
+    object-fit: cover;
+    border-radius: 50% */
+}
+
+.hero__content {
+
+}
+
+.hero__content h1 {
+    margin-bottom: 0.2rem; 
+}
+
+.hero__content p {
+    margin-top: 0;
+    font-size: 0.85rem;
+    opacity: 0.65;
+}
+
+.contact-links {
+   
+}
+
+.contact-links a {
+    text-decoration: none;
+}
+
+.contact-links a:after {
+    content: '\00B7';
+}
+
+.contact-links a:last-child:after {
+    content:""
+}
+
+
+.experience-section {
+    background: white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+
+.experience-box {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.experience-box img {
+    height: 1.5rem
+}
+
+.designation {
+    margin: 0.2rem 0rem;
+   
+}
+
+.company-name {
+    margin: 0;
+    font-weight: 500;
+}
+
+.duration {
+    margin: 0.2rem 0rem;
+    font-size: 0.7rem;
+}
+
+.experience-summary {
+    padding: 0.2rem 1rem
+}
+
+
+.main-content {
+    width: 100vw;
+}
+
+.secondary-content { 
+    background: white;
+/* min-width: 50%; */
+    width: 100vw;
+}
+
+
+
+@media  only screen and (min-width: 768px) {
+    .main-content {
+        width: 50vw;
+    }
+    
+    .secondary-content { 
+        background: white;
+    /* min-width: 50%; */
+        width: 40vw;
+    }
 }

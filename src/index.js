@@ -1,3 +1,3 @@
 function printaspdf() {
-  window.print;
+  window.print();
 }
